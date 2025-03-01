@@ -8,18 +8,18 @@ body {
 }
 
 header {
-    background-color: #ffffff; /* Променено на бяло */
-    color: #000000; /* Променено на черно */
+    background-color: #222; /* Връщаме черния фон */
+    color: white;
     padding: 20px 0;
 }
 
 .logo {
     width: 200px;
+    background: transparent; /* Уверяваме се, че фонът не се оцветява */
 }
 
 h1 {
     margin: 10px 0;
-    color: #000000; /* Уверяваме се, че текстът е черен */
 }
 
 .about, .contact {
@@ -48,4 +48,3 @@ footer {
     background-color: #222;
     color: white;
 }
-
