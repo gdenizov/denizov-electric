@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #888888; /* Променено на сиво */
+    background-color: #888888; /* Сив фон */
     color: white;
     padding: 20px 0;
 }
@@ -16,6 +16,8 @@ header {
 .logo {
     width: 200px;
     background: transparent;
+    display: block;
+    margin: 20px auto; /* Центриране */
 }
 
 h1 {
@@ -29,6 +31,14 @@ h1 {
     max-width: 600px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    margin-bottom: 10px;
+}
+
+.about .logo {
+    margin-top: 10px; /* Отстояние след текста „За нас“ */
 }
 
 ul {
@@ -48,4 +58,3 @@ footer {
     background-color: #222;
     color: white;
 }
-
