@@ -8,14 +8,14 @@ body {
 }
 
 header {
-    background-color: #222; /* Връщаме черния фон */
+    background-color: #888888; /* Променено на сиво */
     color: white;
     padding: 20px 0;
 }
 
 .logo {
     width: 200px;
-    background: transparent; /* Уверяваме се, че фонът не се оцветява */
+    background: transparent;
 }
 
 h1 {
@@ -48,3 +48,4 @@ footer {
     background-color: #222;
     color: white;
 }
+
