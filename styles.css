@@ -8,8 +8,8 @@ body {
 }
 
 header {
-    background-color: #222;
-    color: white;
+    background-color: #ffffff; /* Променено на бяло */
+    color: #000000; /* Променено на черно */
     padding: 20px 0;
 }
 
@@ -19,6 +19,7 @@ header {
 
 h1 {
     margin: 10px 0;
+    color: #000000; /* Уверяваме се, че текстът е черен */
 }
 
 .about, .contact {
@@ -47,3 +48,4 @@ footer {
     background-color: #222;
     color: white;
 }
+
