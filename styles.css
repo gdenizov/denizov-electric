@@ -110,7 +110,11 @@ ul {
 
 footer {
     margin-top: 20px;
-    padding: 10px;
-    background-color: #222;
+    padding: 20px;
+    background-color: #888888; /* Върнат сив фон */
     color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
