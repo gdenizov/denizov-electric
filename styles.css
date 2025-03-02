@@ -2,41 +2,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     color: #333;
-}
-
-/* Хедър */
-header {
-    background-color: #0056b3;
-    color: white;
     text-align: center;
+}
+
+header {
+    background-color: #888888;
+    color: white;
     padding: 20px 0;
-}
-
-.header-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.logo {
-    width: 180px;
-}
-
-h1 {
-    font-size: 24px;
-    margin: 0;
 }
 
 /* Навигационно меню */
 nav {
-    background-color: #003f7f;
+    background-color: #444;
     padding: 10px 0;
-    text-align: center;
 }
 
 .menu {
@@ -55,13 +35,12 @@ nav {
 .menu a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
     padding: 10px 15px;
     display: block;
 }
 
 .menu a:hover {
-    background-color: #007BFF;
+    background-color: #666;
     border-radius: 5px;
 }
 
@@ -71,6 +50,67 @@ nav {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #007BFF;
+    background-color: #555;
     list-style: none;
-    padd
+    padding: 0;
+    min-width: 180px;
+    border-radius: 5px;
+}
+
+.dropdown li {
+    width: 100%;
+}
+
+.dropdown a {
+    padding: 10px;
+    color: white;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #777;
+}
+
+/* Показване на падащото меню при навеждане */
+.menu li:hover .dropdown {
+    display: block;
+}
+
+/* Лого стилове */
+.logo {
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.about, .contact, .services {
+    padding: 20px;
+    background: white;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.contact a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+}
