@@ -58,3 +58,65 @@ footer {
     background-color: #222;
     color: white;
 }
+nav {
+    background-color: #444;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    position: relative;
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #666;
+    border-radius: 5px;
+}
+
+/* Стил за падащото меню */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #555;
+    list-style: none;
+    padding: 0;
+    min-width: 180px;
+    border-radius: 5px;
+}
+
+.dropdown li {
+    width: 100%;
+}
+
+.dropdown a {
+    padding: 10px;
+    color: white;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #777;
+}
+
+/* Показване на падащото меню при навеждане */
+.menu li:hover .dropdown {
+    display: block;
+}
+
