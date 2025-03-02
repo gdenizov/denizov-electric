@@ -8,16 +8,24 @@ body {
 }
 
 header {
-    background-color: #888888; /* Сив фон */
+    background-color: #888888; /* Сив фон за хедъра */
     color: white;
     padding: 20px 0;
 }
 
+/* Стил за контейнера на логото */
+.logo-container {
+    display: inline-block;
+    background: white; /* Бял фон за логото */
+    padding: 10px; /* Разстояние около логото */
+    border-radius: 10px; /* Заоблени ъгли */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Лека сянка */
+}
+
 .logo {
     width: 200px;
-    background: transparent;
     display: block;
-    margin: 20px auto; /* Центриране */
+    margin: auto;
 }
 
 h1 {
@@ -31,14 +39,6 @@ h1 {
     max-width: 600px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.about h2 {
-    margin-bottom: 10px;
-}
-
-.about .logo {
-    margin-top: 10px; /* Отстояние след текста „За нас“ */
 }
 
 ul {
