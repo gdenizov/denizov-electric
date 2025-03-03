@@ -25,22 +25,21 @@
             <h2>Свържете се с нас</h2>
             <p><strong>Телефон:</strong> 0883 200 003</p>
             <p><strong>Email:</strong> <a href="mailto:gdenizov@gmail.com">gdenizov@gmail.com</a></p>
-<p><strong>Последвайте ни във Facebook:</strong> <a href="https://www.facebook.com/share/15ZUJcCYR8/?mibextid=wwXIfr" target="_blank">Facebook</a></p>
-
-    <form action="mailto:gdenizov@gmail.com" method="post" enctype="text/plain">
-    <label for="name">Вашето име:</label>
-    <input type="text" id="name" name="name" required>
-    
-    <label for="email">Вашият имейл:</label>
-    <input type="email" id="email" name="email" required>
-
-    <label for="message">Вашето съобщение:</label>
-    <textarea id="message" name="message" rows="4" required></textarea>
-
-    <button type="submit">Изпрати</button>
-</form>
+            <p><strong>Последвайте ни във Facebook:</strong> <a href="https://www.facebook.com/share/15ZUJcCYR8/?mibextid=wwXIfr" target="_blank">Facebook</a></p>
             
-            </a>
+            <h3>Изпратете ни съобщение:</h3>
+            <form action="mailto:gdenizov@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Вашето име:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Вашият имейл:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Вашето съобщение:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Изпрати</button>
+            </form>
         </section>
     </div>
     <footer class="main-footer">
@@ -48,38 +47,5 @@
             <p>&copy; 2025 Denizov Electric. Всички права запазени.</p>
         </div>
     </footer>
-
-    <!-- Messenger Chat Plugin -->
-<div id="fb-root"></div>
-
-<!-- Your Chat Plugin code -->
-<div id="fb-customer-chat" class="fb-customerchat"></div>
-
-<script>
-  var chatbox = document.getElementById('fb-customer-chat');
-  chatbox.setAttribute("page_id", "https://www.facebook.com/share/15ZUJcCYR8/?mibextid=wwXIfr");
-  chatbox.setAttribute("attribution", "biz_inbox");
-
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml: true,
-      version: "v18.0"
-    });
-  };
-
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "https://connect.facebook.net/bg_BG/sdk/xfbml.customerchat.js";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
-
-
-
-
 </body>
 </html>
-
-
