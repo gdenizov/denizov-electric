@@ -118,3 +118,13 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.about-image {
+    width: 100%;
+    max-width: 400px; /* Регулира максималната ширина */
+    display: block;
+    margin: 15px auto; /* Центрира изображението */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
