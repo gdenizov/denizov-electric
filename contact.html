@@ -27,6 +27,19 @@
             <p><strong>Email:</strong> <a href="mailto:gdenizov@gmail.com">gdenizov@gmail.com</a></p>
 <p><strong>Последвайте ни във Facebook:</strong> <a href="https://www.facebook.com/share/15ZUJcCYR8/?mibextid=wwXIfr" target="_blank">Facebook</a></p>
 
+    <form action="mailto:gdenizov@gmail.com" method="post" enctype="text/plain">
+    <label for="name">Вашето име:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Вашият имейл:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Вашето съобщение:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit">Изпрати</button>
+</form>
+            
             </a>
         </section>
     </div>
@@ -63,18 +76,7 @@
   }(document, 'script', 'facebook-jssdk'));
 </script>
 
-    <form action="mailto:gdenizov@gmail.com" method="post" enctype="text/plain">
-    <label for="name">Вашето име:</label>
-    <input type="text" id="name" name="name" required>
-    
-    <label for="email">Вашият имейл:</label>
-    <input type="email" id="email" name="email" required>
 
-    <label for="message">Вашето съобщение:</label>
-    <textarea id="message" name="message" rows="4" required></textarea>
-
-    <button type="submit">Изпрати</button>
-</form>
 
 
 </body>
